@@ -1,0 +1,83 @@
+body {
+    font-family: 'Inconsolata', sans-serif;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, #743faa , #6cdce4);
+    height: 100vh;
+}
+/* styling pf body */
+
+
+.wikiSearch {
+    display: block;
+    margin: 0 auto 25px;
+    width: 800px;
+    text-align: center;
+    padding: 20px;
+}
+/* styling of form container */
+
+
+#searchBar {
+    height: 50px;
+    text-align: center;
+    width: 600px;
+    font-weight: 100;
+    font-size: 50px;
+    display: inline-block;
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 100;
+    color: #9e10d6a6;
+    padding: 30px;
+    box-sizing: border-box;
+    border-bottom: 3px solid #ddd;
+    background: transparent;
+    margin: 20px auto;
+    padding-bottom: 40px;
+}
+/* styling of search box */
+
+
+#searchResults {
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding-left: 0;
+}
+/* styling of the results container */
+
+
+.singleResult {
+    background: #fff;
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 100;
+    padding: 0 45px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    display: inline-block;
+    margin: 10px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 6px;
+    color: #777;
+}
+/* styling of individual result */
+
+
+.alert {
+    border-bottom: 3px solid #c8102e !important;
+    transition: border-bottom 0.5s ease;
+}
+/* red line border shows error */
+
+
+.logo {
+    width: 50px;
+    display: block;
+    filter: invert(100%);
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    margin: 50px -25px 0;
+}
+/* styling of logo */
+
